@@ -1,20 +1,117 @@
 body{
     max-width: 90%;
     margin: auto;
+    /* background-image: url("https://www.liegetourisme.be/medias/images/prestations/multitailles/1200x900_photo-Y-EVTA0004D0OT5-OTHA0004E0C45.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover; */
+    font-family: 'Open Sans', sans-serif;
     background: -webkit-linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));
     background: linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));
 }
 
+header section:first-child h1{
+    font-size: 60px;
+    background-color: yellow;
+    padding: 10px;
+}
 
-
-blockquote{
+blockquote, q{
+    display: block;
     width: 50%;
     margin: auto;
     font-size: 160%;
-    background-color: #c8c8c8;
+    font-style: italic;
+    background-color: rgba(200, 200, 200, 0.4);
     border-left: 3px dashed;
-    border-color: black;
+    border-color: slategray;
     padding: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+cite, a{
+    text-decoration: none;
+}
+
+a:link {
+    color: seagreen;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+.villager{
+    border-color: red;
+}
+
+.farmer{
+    border-color: green;
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+
+caption {
+    font-weight: bold;
+}
+
+table {
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #A8DBA3;
+}
+
+img {
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.headerTitle {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.preamble {
+    float: left;
+}
+.story {
+    clear: both;
+}
+
+/*footer {
+    background-color: aqua;
+    max-width: 100%;
 }
