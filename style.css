@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap');
 
 
-  body{
+body {
     max-width: 90%;
     margin: auto;
-    /* background-image: url("https://www.liegetourisme.be/medias/images/prestations/multitailles/1200x900_photo-Y-EVTA0004D0OT5-OTHA0004E0C45.jpg");
+    background-image: url(img/zen.jpg);
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: cover; */
+    background-position: center;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    background: -webkit-linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));
-    background: linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));
+    /*background: -webkit-linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));
+    background: linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));*/
 }
 
-header section:first-child h1{
+header section:first-child h1 {
     font-size: 60px;
-    background-color: yellow;
-    padding: 10px;
+    background-color: rgba(244, 208, 63, 1);
+    padding: 20px 40px;
 }
 
-blockquote, q{
+blockquote, q {
     display: block;
     width: 50%;
     margin: auto;
@@ -33,7 +33,7 @@ blockquote, q{
     margin-bottom: 80px;
 }
 
-cite, a{
+cite, a {
     text-decoration: none;
 }
 
@@ -53,11 +53,11 @@ a:active {
     color: blue;
 }
 
-.villager{
+.villager {
     border-color: red;
 }
 
-.farmer{
+.farmer {
     border-color: green;
 }
 
@@ -92,7 +92,7 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-    background-color: #A8DBA3;
+    background-color: rgba(165, 225, 237, 0.3);
 }
 
 .headerTitle {
@@ -116,8 +116,23 @@ tr:nth-child(odd) {
 .preamble {
     float: left;
 }
+
 .story {
     clear: both;
+}
+
+@media  screen and (max-width: 800px) {
+    .image img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
 }
 
 /*footer {
