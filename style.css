@@ -95,16 +95,22 @@ tr:nth-child(odd) {
     background-color: #A8DBA3;
 }
 
-img {
-    float: right;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 .headerTitle {
     float: left;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.image {
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
 }
 
 .preamble {
