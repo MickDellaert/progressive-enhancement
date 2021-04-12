@@ -1,4 +1,7 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+
+
+  body{
     max-width: 90%;
     margin: auto;
     /* background-image: url("https://www.liegetourisme.be/medias/images/prestations/multitailles/1200x900_photo-Y-EVTA0004D0OT5-OTHA0004E0C45.jpg");
