@@ -1,0 +1,20 @@
+body{
+    max-width: 90%;
+    margin: auto;
+    background: -webkit-linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));
+    background: linear-gradient(175deg, rgb(215, 233, 208), rgb(114, 187, 142));
+}
+
+
+
+blockquote{
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: #c8c8c8;
+    border-left: 3px dashed;
+    border-color: black;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
